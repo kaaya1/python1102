@@ -8,8 +8,13 @@ class Person:
     def print(self):
         print("이름은", self.name)
 
-#인스턴스 생성
+#2)인스턴스 생성
 p1 = Person()
 p2 = Person()
+
+#3) 인스턴스 메서드 호출
+p1.name = "전우치"
 p1.print()
 p2.print()
+
+
